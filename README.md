@@ -1,4 +1,11 @@
+![Screenshot_from_2019-01-02_17-27-34 x15](https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/c913f0dd-c8b7-48d4-aec4-ab8329fc2327)
+
 ## Kidney Tumor Segmentation
+
+
+There are more than 400,000 new cases of kidney cancer each year , and surgery is its most common treatment. Due to the wide variety in kidney and kidney tumor morphology, there is currently great interest in how tumor morphology relates to surgical outcomes, [3,4] as well as in developing advanced surgical planning techniques. Automatic semantic segmentation is a promising tool for these efforts, but morphological heterogeneity makes it a difficult problem.
+
+The goal of this challenge is to accelerate the development of reliable kidney and kidney tumor semantic segmentation methodologies. We have produced ground truth semantic segmentations for arterial phase abdominal CT scans of 300 unique kidney cancer patients who underwent partial or radical nephrectomy at our institution. 210 of these have been released for model training and validation, and the remaining 90 will be held out for objective model evaluation .
 
 
 ## Diagram
