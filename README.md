@@ -1,6 +1,9 @@
-# Kidney_Tissue_Segmentation
+## Kidney Tumor Segmentation
 
-Kidney Tumor Segmentation
+
+## Diagram
+
+![MIScnn pipeline](https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/a0bd0084-e7a3-485f-927f-3dec563aef8e)
 
 ## How to Use
 
