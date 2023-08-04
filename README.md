@@ -73,3 +73,13 @@ visualize("case_00123", <destination (str)>)
 # or
 visualize(123, <destination (str)>)
 ```
+
+![download](https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/748467bf-8eda-44b9-9039-60f6cdf7690d)
+
+
+### Train
+
+
+
+## Evaluation
+
