@@ -111,8 +111,6 @@ unet_standard = Architecture()
 model = miscnn.Neural_Network(preprocessor=pp, architecture=unet_standard)
 ```
 
-Congratulations to your ready-to-use Medical Image Segmentation pipeline including data I/O, preprocessing and data augmentation with default setting.
-
 ## Train
 
 Let's run a model training on our data set. Afterwards, predict the segmentation of a sample using the fitted model.
@@ -126,6 +124,8 @@ model.train(sample_list[0:80], epochs=500)
 pred = model.predict(sample_list[80:100], return_output=True)
 ```
 
+## Evaluation
+
 Now, let's run a 5-fold Cross-Validation with our model, create automatically evaluation figures and save the results into the directory "evaluation_results".
 
 ```python
@@ -135,5 +135,35 @@ cross_validation(sample_list, model, k_fold=5, epochs=100,
                  evaluation_path="evaluation_results", draw_figures=True)
 ```
 
-## Evaluation
+<table class="center">
+<tr>
+  <td style="text-align:center;"><b>Validation Dice Soft</b></td>
+  <td style="text-align:center;"><b>Validation Dice Loss</b></td>
+   <td style="text-align:center;"><b>Validation Dice Cross Entropy</b></td>
+</tr>
+  
+<tr>
+ <td>
+
+![download (1)](https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/800fd950-537c-4fcc-a5ad-e87167fdd719)
+
+
+
+</td>
+  <td>
+  
+
+![download (2)](https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/bc059a31-23f7-405c-a1ce-7066d61ff157)
+
+
+  </td>
+  <td>
+
+![download (6)](https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/7762d2ea-2bf3-4a22-aa75-25aa3358d2f8)
+
+
+</td>
+</tr>
+</td>
+</table>
 
