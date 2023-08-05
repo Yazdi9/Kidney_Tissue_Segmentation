@@ -134,11 +134,12 @@ from miscnn.evaluation import cross_validation
 cross_validation(sample_list, model, k_fold=5, epochs=100,
                  evaluation_path="evaluation_results", draw_figures=True)
 ```
+## 
 
 <table class="center">
 <tr>
   <td style="text-align:center;"><b>Validation Dice Soft</b></td>
-  <td style="text-align:center;"><b>Validation Dice Loss</b></td>
+  <td style="text-align:center;"><b>Validation Loss</b></td>
    <td style="text-align:center;"><b>Validation Dice Cross Entropy</b></td>
 </tr>
   
@@ -166,4 +167,8 @@ cross_validation(sample_list, model, k_fold=5, epochs=100,
 </tr>
 </td>
 </table>
+
+##  Results
+
+![Screenshot (5066)](https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/17bf30b3-cac2-4917-b824-708bff4beddc)
 
