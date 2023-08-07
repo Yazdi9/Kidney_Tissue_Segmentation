@@ -163,12 +163,60 @@ cross_validation(sample_list, model, k_fold=5, epochs=100,
 ![download (6)](https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/7762d2ea-2bf3-4a22-aa75-25aa3358d2f8)
 
 
+</td> 
+
+</tr> 
+
 </td>
-</tr>
-</td>
+
 </table>
 
+
 ##  Results
+
+<table>
+
+<tr>
+
+<th colspan="3" style="font-size: 28px;">Fruits and Vegetables</th>
+
+</tr>
+
+<tr>
+
+<th>Name</th>
+
+<th style="width: 250px;">Picture</th>
+
+<th>Fruit/Vegetable</th>
+
+</tr>
+
+<tr>
+
+<td>Apple</td>
+
+<td><img src="/images/apples.jpg" alt="apple" width="200"></td>
+
+<td>Fruit</td>
+
+</tr>
+
+<tr>
+
+<td>Carrot</th>
+
+<td><img src="/images/carrot.jpg" alt="carrot" width="200"></th>
+
+<td>Vegetable</th>
+
+</tr>
+
+
+
+</table>
+
+
 
 ![Screenshot (5066)](https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/17bf30b3-cac2-4917-b824-708bff4beddc)
 
