@@ -3,7 +3,7 @@
 ## Kidney Tumor Segmentation
 
 
-There are more than 400,000 new cases of kidney cancer each year , and surgery is its most common treatment. Due to the wide variety in kidney and kidney tumor morphology, there is currently great interest in how tumor morphology relates to surgical outcomes, [3,4] as well as in developing advanced surgical planning techniques. Automatic semantic segmentation is a promising tool for these efforts, but morphological heterogeneity makes it a difficult problem.
+There are more than 400,000 new cases of kidney cancer each year , and surgery is its most common treatment. Due to the wide variety in kidney and kidney tumor morphology, there is currently great interest in how tumor morphology relates to surgical outcomes,  as well as in developing advanced surgical planning techniques. Automatic semantic segmentation is a promising tool for these efforts, but morphological heterogeneity makes it a difficult problem.
 
 The goal of this challenge is to accelerate the development of reliable kidney and kidney tumor semantic segmentation methodologies. We have produced ground truth semantic segmentations for arterial phase abdominal CT scans of 300 unique kidney cancer patients who underwent partial or radical nephrectomy at our institution. 210 of these have been released for model training and validation, and the remaining 90 will be held out for objective model evaluation .
 
@@ -176,19 +176,14 @@ cross_validation(sample_list, model, k_fold=5, epochs=100,
 
 <table>
 
-<tr>
-
-<th colspan="3" style="font-size: 28px;">Fruits and Vegetables</th>
-
-</tr>
 
 <tr>
 
 <th>Name</th>
 
-<th style="width: 250px;">Picture</th>
+<th style="width: 250px;">Fold 1</th>
 
-<th>Fruit/Vegetable</th>
+<th>Fold 0</th>
 
 </tr>
 
@@ -196,7 +191,7 @@ cross_validation(sample_list, model, k_fold=5, epochs=100,
 
 <td>Apple</td>
 
-<td><img src="/images/apples.jpg" alt="apple" width="200"></td>
+<td><img src="https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/f6c90491-3012-4a62-b766-e4c042facba4.gif"  width="400"></td>
 
 <td>Fruit</td>
 
@@ -204,11 +199,11 @@ cross_validation(sample_list, model, k_fold=5, epochs=100,
 
 <tr>
 
-<td>Carrot</th>
+<td>Fold 1</th>
 
-<td><img src="/images/carrot.jpg" alt="carrot" width="200"></th>
+<td><img src="https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/212e39b2-8002-41b4-b527-389275ace5c1.gif"  width="400"></th>
 
-<td>Vegetable</th>
+<td>Fold 1</th>
 
 </tr>
 
