@@ -190,18 +190,18 @@ cross_validation(sample_list, model, k_fold=5, epochs=100,
 
 
 
-<td><img src="https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/f6c90491-3012-4a62-b766-e4c042facba4.gif"  width="470"></td>
+<td><img src="https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/f6c90491-3012-4a62-b766-e4c042facba4.gif"  width="430"></td>
 
-<td><img src="https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/d4b7b85b-5a68-4c6f-9476-967bbfa87f4d.gif"  width="470"> </td>
+<td><img src="https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/d4b7b85b-5a68-4c6f-9476-967bbfa87f4d.gif"  width="430"> </td>
 
 </tr>
 
 <tr>
 
 
-<td><img src="https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/212e39b2-8002-41b4-b527-389275ace5c1.gif"  width="470"></th>
+<td><img src="https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/212e39b2-8002-41b4-b527-389275ace5c1.gif"  width="430"></th>
 
-<td><img src="https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/10fff419-cbf4-45cf-8236-8e4529fb0caa.gif"  width="470"></th>
+<td><img src="https://github.com/saba99/Kidney_Tissue_Segmentation/assets/33378412/10fff419-cbf4-45cf-8236-8e4529fb0caa.gif"  width="430"></th>
 
 </tr>
 
